@@ -1,0 +1,49 @@
+body{
+	background-color: rgb(241,242,243);
+	min-width: 320px;
+}
+.width-controll{
+	max-width: 1800px;
+	margin: 0 auto;
+	position: relative;
+}
+#main-header{
+	padding-bottom: 350px;
+	background: url(../img/air-plane.png) 50% 100% no-repeat;
+	background-size: 80%;
+
+}
+header #main-nav{
+	background-color: rgb(241,242,243);
+	border:none;
+	border-radius: 0;
+}
+header #main-nav a{
+	/*color: rgb(103,58,183);*/
+	color: rgb(149,117,205);	
+	line-height: 40px;
+}
+header #main-nav #nav-wrapper #nav-header{	
+	height: 70px;
+}
+header #main-nav #logo{
+	font-size: 15px;
+}
+header #main-nav #logo div{
+	background-color: rgb(103,58,183);
+	display: inline-block;	
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	border-radius: 20%;
+	color: white;
+	font-size: 17px;
+	text-shadow: 5px 5px 1px #333;
+	box-shadow: -1px 0 5px rgb(72,41,129) inset;
+}
+
+header #main-nav a.current,
+header #main-nav a:hover{
+	color: rgb(103,58,183);
+}
+
