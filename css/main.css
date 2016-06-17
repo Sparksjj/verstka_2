@@ -1,17 +1,18 @@
 body{
-	background-color: rgb(241,242,243);
 	min-width: 320px;
 }
 .width-controll{
 	max-width: 1800px;
 	margin: 0 auto;
-	position: relative;
+	position: relative;	
+	background: rgb(241,242,243) url(../img/air-plane.png) 50% 100% no-repeat;
+	background-size: 80%;
+	height: 100%;
+	padding-bottom: 250px;
 }
 #main-header{
-	padding-bottom: 350px;
-	background: url(../img/air-plane.png) 50% 100% no-repeat;
-	background-size: 80%;
-
+	padding: 0;
+	background-color: rgb(241,242,243);
 }
 header #main-nav{
 	background-color: rgb(241,242,243);
@@ -47,3 +48,118 @@ header #main-nav a:hover{
 	color: rgb(103,58,183);
 }
 
+/*slider*/
+#info{
+	padding: 0;
+	margin-top: -50px;
+}
+#info-wrapper{
+	padding: 0;
+	margin-bottom: 10px;
+}
+#slider-wrapper{
+	background-color: rgb(66,66,66);
+}
+
+#slider{
+	padding: 20px 10px 20px 0;
+}
+#slider li{
+	border-bottom: 1px solid rgb(89,89,89);
+	padding: 15px 0;
+}
+#slider li:last-child{
+	border-bottom: none;
+}
+#slider li.namber-info{
+	color: rgb(149, 117,205);
+	font-size: 30px;	
+	font-weight: bold;
+	position: relative;
+}
+#slider li.namber-info >i{
+	display: inline-block;
+	width: 110px;
+	font-style: normal;
+}
+#slider li.namber-info > span{
+	color: white;
+	font-size: 12px;
+	margin-left: 10px;
+	position: absolute;
+	top: 28px;
+}
+
+#slider-wrapper .slide-head,
+#slider-wrapper .slide-info
+{
+	color: rgb(119,119,119);	
+	font-weight: bold;
+}
+#slider-wrapper .slide-head{
+	font-size: 30px;
+
+}
+
+#slider-wrapper .slide-info{	
+	font-size: 16px;
+}
+/*form*/
+#main-form-wrapper.{
+}
+h2.offer{
+	width: 60%;
+	margin: 100px auto 50px auto;
+	font-size: 25px;
+}
+
+input{
+	border: 1px solid rgba(149,117,205,.4);
+	color: rgb(149,117,205);
+	padding: 15px;
+}
+input:focus{
+	outline: 1px solid rgb(149,117,205);
+}
+
+input[name='name'],
+input[name='number'],
+#send-seo-form{
+	display: block;
+	margin: auto auto 10px;
+	font-size: 	18px;
+	width: 50%;
+	height: 50px;	 
+}
+
+#send-seo-form{
+	border: none;
+	background-color: rgb(149,117,205);
+	color: white;
+}
+
+#left-button,
+#right-button{
+	color: black;
+	position: absolute;
+	top: 150px;
+}
+#right-button{
+}
+
+/*slider-controll*/
+#slide-controll input[type="radio"]{
+	display: none;
+}
+#slide-controll input[type="radio"]:checked + label{	
+	background-color: white;
+}
+
+#slide-controll label{
+	display: inline-block;
+	border: 2px solid rgb(149,117,205);
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: rgb(149,117,205);
+}
